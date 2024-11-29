@@ -1,0 +1,290 @@
+/*Title Bar*/
+.kas {
+    background-color: black;
+    color: white;
+    margin-top:0%;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Navigation*/
+.nava{
+min-width: 30px;
+min-height:30px;
+border: none;
+border-radius: 10px;
+flex-wrap: wrap;
+flex-basis: 13%;
+background-color: none;
+align-items: center;
+align-content: center;
+color: black;
+
+
+}
+
+.navsec{
+    background-color: yellow;
+    color:white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: auto;
+}
+
+.nav{
+min-width: 30px;
+min-height:30px;
+border: none;
+border-radius: 10px;
+flex-wrap: wrap;
+flex-basis: 10%;
+background-color: white;
+}
+
+.nav:nth-child(2){
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 10%;
+}
+
+.nav:nth-child(3){
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 10%;
+}
+
+.nav:nth-child(4){
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 10%;
+color: black;
+align-content: center;
+text-align: center;
+}
+
+.nav:nth-child(5){
+    flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 5%;
+}
+
+.nav:nth-child(6){
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 10%;   
+}
+
+.nav:nth-child(7){
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 10%;    
+}
+
+.nav:nth-child(8){
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 10%;  
+}
+
+.nav:nth-child(9){
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 5%;
+    color: black;    
+}
+
+.nav:nth-child(10){
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 10%;     
+}
+
+.nav:nth-child(11){
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 10%;   
+}
+
+.nav:nth-child(12){
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 10%;   
+}
+
+/*Main Section*/
+.collapse{
+    display: none;
+}
+
+.mainsection{
+    display: flex;
+    gap: 1em;
+    font-size: 0.6em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 14px;
+    }
+    
+    span{
+        color: green;
+    }
+    
+    .features{
+        text-align: center;
+    }
+
+    .downloads a:hover{
+     color: green;
+    }
+
+    .download{
+        text-decoration: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    
+
+    
+/*Media Queries*/
+@media (max-width:700px){
+
+   .navsec{
+    background-color: yellow;
+    color:white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+
+}
+    .nav{
+        min-width: 30px;
+        min-height:30px;
+        border: none;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        flex-basis: 25%;
+        background-color: white;
+        
+        
+        }
+        
+        .nav:nth-child(2){
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 25%;
+        
+        
+        }
+        
+        .nav:nth-child(3){
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 25%;
+        
+        
+        }
+        
+        .nav:nth-child(4){
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 25%;
+        color: black;
+        align-content: center;
+        text-align: center;
+        
+        
+        }
+        
+        .nav:nth-child(5){
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 5%;
+             
+        
+        }
+        
+        
+        .nav:nth-child(6){
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 25%; 
+            
+        }
+        
+        .nav:nth-child(7){
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 10%; 
+            
+        }
+        
+        .nav:nth-child(8){
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 15%;
+            
+            
+        }
+        
+        .nav:nth-child(9){
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 9%;
+ 
+        }
+        
+        .nav:nth-child(10){
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 18%;    
+        }
+        
+        .nav:nth-child(11){
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 10%;  
+        }
+        
+        .nav:nth-child(12){
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 10%;  
+        }
+        
+        .collapse{
+            display: none;
+        }
+
+        .mainsection{
+            display: flex;
+            gap: 1em;
+            font-size: 0.6em;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            padding: 1px;
+            padding-left: 100px;
+            padding-right: 100px;
+            font-size: 15px;
+            flex-wrap: wrap;
+            }
+            
+            span{
+                color: green;
+            }
+            
+            .features{
+                text-align: center;
+            }
+}
+
